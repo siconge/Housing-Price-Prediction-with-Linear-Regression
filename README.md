@@ -1,5 +1,5 @@
 <div style="position: fixed; bottom: 0; left: 0; width: 100%; background-color: #ffffff; border-top: 1px solid #cccccc; padding: 10px; text-align: center; z-index: 1000;">
-    <a href="https://siconge.github.io/" style="color: #333333; font-family: Arial, sans-serif; text-decoration: none;">Back to Portfolio</a>
+    <a href="https://siconge.github.io/">Back to Portfolio</a> <!-- style="color: #333333; font-family: Arial, sans-serif; text-decoration: none;" -->
 </div>
 
 # Index

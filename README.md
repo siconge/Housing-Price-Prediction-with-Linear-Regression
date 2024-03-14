@@ -1062,3 +1062,5 @@ It can be confirmed that using the highest 15 correlated independent variables a
 ## References
 
 - Keough, Caroline; Trinh, Tam; Gomez, Joaquin; O'Brien, Michael. “Using Data to Predict Ames, Iowa Home Sale Prices.” NYC Data Science Academy. NYC Data Science Academy, 2022-07-13. 2023-10-23. https://nycdatascience.com/blog/student-works/machine-learning/using-data-to-predict-ames-iowa-home-sale-prices/ .
+
+&#160;

@@ -7,6 +7,8 @@
 
 **Sicong E**
 
+[Go to repository](https://github.com/siconge/Housing-Price-Prediction-with-Linear-Regression)
+
 ## Index
 
 - [Abstract](#abstract)

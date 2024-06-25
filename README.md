@@ -3,7 +3,8 @@
     <!-- style="color: #333333; font-family: Arial, sans-serif; text-decoration: none;" -->
 </div>
 
-# Index
+
+## Index
 
 - [Abstract](#abstract)
 - [1. Introduction](#1-introduction)
@@ -20,14 +21,14 @@
 - [Conclusion](#conclusion)
 - [References](#references)
 
-[Back to top](#Index)
+[Back to top](#index)
 
 
 ##  Abstract
 
 When it comes to predicting housing prices, many factors can come into play. Factors such as overall quality that rates the overall material and finish of the house, as well as gross living area, are admittedly important factors contributing to home value, but they are not the only couple. The goal of this project is to build a linear regression model using the Ames Housing Dataset and apply data analysis techniques such as exploratory data analysis, data cleaning, and feature selection targeting multiple independent variables that are moderately and highly correlated with the dependent variable, to improve prediction accuracy that can help both realtors and prospective homeowners accurately price a house based on its available features.
 
-[Back to top](#Index)
+[Back to top](#index)
 
 
 ## 1. Introduction
@@ -36,13 +37,13 @@ The goal of this project is to build a model using linear regression algorithm t
 
 The steps of work are contrived as follows: Section 2.1 briefs data familiarization before data analysis techniques are initiated. Section 2.2 explains the data exploration process. Analyzing the distribution of the dependent variable *SalePrice* leads to the conclusion that the correct next step is to log transform the dependent variable value. Section 2.3 explains how the data for modeling is prepared. It follows steps of cleaning and imputation. Section 2.4 describes using correlations to help make educated guesses about how to proceed with the analysis, showing a data reshaping process based on features within a target range of correlation strengths. Section 3.1 covers the algorithm used in this project. Section 3.2 presents the steps to implement the algorithm using Python and SKlearn tools to build the model. Several analysis approaches to improve the accuracy of the model are explained. Section 3.3 exhibits the results obtained. Section 3.4 elaborates the process of testing the model against test data to confirm its accuracy on new data. Finally, the conclusion is extrapolated in the last section.
 
-[Back to top](#Index)
+[Back to top](#index)
 
 ## 2. The Data
 
 The data source used for modeling in this project is Ames Housing Dataset, which is a well-known dataset in the field of machine learning and data analysis. It contains various features and attributes of residential homes in Ames, Iowa, USA. The dataset is often used for regression tasks, particularly for predicting housing prices.
 
-[Back to top](#Index)
+[Back to top](#index)
 
 ### 2.1 Import the Data
 
@@ -235,7 +236,7 @@ train.head()
 
 
 
-[Back to top](#Index)
+[Back to top](#index)
 
 ### 2.2 Data Exploration
 
@@ -287,7 +288,7 @@ Y_target = np.log(Y_distrib)
     
 
 
-[Back to top](#Index)
+[Back to top](#index)
 
 ### 2.3 Data Preparation
 
@@ -342,7 +343,7 @@ print(data.shape) # get information about the number of remaining columns after 
     (100, 39)
 
 
-[Back to top](#Index)
+[Back to top](#index)
 
 ### 2.4 Correlation
 
@@ -410,13 +411,13 @@ plt.show()
     
 
 
-[Back to top](#Index)
+[Back to top](#index)
 
 ## 3. Project Description
 
 In this section, the steps to implement the algorithm using Python and SKlearn tools to build the model are presented. Several analysis approaches to improve the accuracy of the model are explained. They are, detecting how R-squared score varies as the number of variables for modeling increases, testing how the sample weight parameter affects the score, as well as comparing the model quality using log-transformed dependent variable data against using original dependent variable data through visual inspections of the plots. The results obtained are then exhibited to assist in explaining the findings derived from the data analysis.
 
-[Back to top](#Index)
+[Back to top](#index)
 
 ### 3.1 Linear Regression
 
@@ -429,7 +430,7 @@ $$ y = m_{1}x_{1} + m_{2}x_{2} + ... + m_{n}x_{n} + b $$
 
 Linear regression modeling can be realized in Python with tools provided in SKlearn library, where linear regression is defined as the process of determining the straight line that best fits a set of dispersed data points and the line can then be projected to forecast fresh data points. Due to its simplicity and essential features, linear regression is a fundamental Machine Learning method. *sklearn.linear_model.LinearRegression* class is used to instantiate Linear Regression model. The key methods of this class used in this project include *LinearRegression.fit(X, Y, sample_weight=None)* that fits linear model and returns fitted estimator, *LinearRegression.predict* that predicts class labels for samples in X using the linear model, and *LinearRegression.score(X, Y, sample_weight=None)* that returns the coefficient of determination of the prediction, or the mean accuracy score [0,1] of the model.
 
-[Back to top](#Index)
+[Back to top](#index)
 
 ### 3.2 Analysis 
 
@@ -539,7 +540,7 @@ plt.show()
     
 
 
-[Back to top](#Index)
+[Back to top](#index)
 
 ### 3.3 Results
 
@@ -571,7 +572,7 @@ plt.show()
     
 
 
-[Back to top](#Index)
+[Back to top](#index)
 
 ### 3.4 Verify Your Model Against Test Data
 
@@ -1051,13 +1052,13 @@ plt.show()
     
 
 
-[Back to top](#Index)
+[Back to top](#index)
 
 ## Conclusion
 
 It can be confirmed that using the highest 15 correlated independent variables and the log-transformed dependent variable for prediction resulted the best model, and the hypothesis derived from data exploration and model analysis that "given the logarithm of the predicted sales price, the actual sales price can be well predicted by logarithmic transformation" is established and reasonable. Using the linear regression machine learning model built in this project, we were able to predict home sales prices in Ames with 84% accuracy. This will enable potential buyers and sellers to make effective decisions.
 
-[Back to top](#Index)
+[Back to top](#index)
 
 ## References
 

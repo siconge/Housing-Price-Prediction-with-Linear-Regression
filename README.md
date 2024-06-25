@@ -3,7 +3,7 @@
     <!-- style="color: #333333; font-family: Arial, sans-serif; text-decoration: none;" -->
 </div>
 
-# [Building a Linear Regression Model for Housing Price Prediction](https://github.com/siconge/Housing-Price-Prediction-with-Linear-Regression)
+# Building a Linear Regression Model for Housing Price Prediction
 
 **Sicong E**
 
